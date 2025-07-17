@@ -21,3 +21,7 @@ Basic repository documents, including this README, are provided as good standard
 In addition to standard repo documents, I have included a short script to automatically delete all Markdown files within the parent and all child directories. This is useful when testing various aspects of the Text-to-Markdown script; just beware that **ALL** Markdown files will be completely deleted from the directories without a user prompt. The files will not be in the Recycle Bin or retrievable in any way (that I know of). 
 
 Previous versions of the Text-to-Markdown script will be kept in a separate folder. This is for historical documentation purposes, to see how the code has progresses, and honestly, because I don't have enough experience to know the best procedure for keeping track of revision changes. Again, I'm open to recommendations for better ways to do this. 
+
+## Dependencies
+
+This script uses the Bash shell (`#!/bin/bash`).
